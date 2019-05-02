@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 43
     width: 1920
     height: 997
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_MinSize: {x: 913, y: 271}
   m_MaxSize: {x: 22008, y: 10021}
   vertical: 0
-  controlID: 108
+  controlID: 9
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 92
     width: 1112
     height: 926
@@ -312,30 +312,30 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1116
+    x: 3036
     y: 92
     width: 290
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fe280000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e09cf7ffe29cf7ffe49cf7ff0ae3f7ff1ce3f7ff6c45f8ff7257f8ffb060f8ffb07ef8ff7690f8ff309af8ff7ea6f8ff38b0f8ff8ce3f8ffc62ef9ffce2ef9ff847ff9ff8c7ff9ffb67dfaffea92fbfffa4efdffde49feff3253feff5856feff5c60feff449ffeff88bbffff86fbffff0000000082430000
+    m_ExpandedIDs: d070ffffdc70ffff5a7bffff667bffff64edffff66edffff84fbffff00000000342c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: ItemMessagePanel
-      m_OriginalName: ItemMessagePanel
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -466036
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1645
+    x: 3565
     y: 92
     width: 275
     height: 926
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1410
+    x: 3330
     y: 92
     width: 231
     height: 926
@@ -417,18 +417,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/UIFramework
+    - Assets/Scripts
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: G:\UnityDocuments\UIFramework
+  m_LastProjectPath: G:\UnityDocuments\UIFramework\UIFramework
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 88270000
     m_LastClickedID: 10120
-    m_ExpandedIDs: 82270000
+    m_ExpandedIDs: 00000000de27000054280000ee2900006e2a0000b42a0000be2a00001c2b0000922b0000d02b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -456,7 +456,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008227000086280000242900008c33000092330000fa340000003500003e35000044350000
+    m_ExpandedIDs: 00000000de27000054280000ee2900000a2a00006e2a0000b42a0000be2a0000d22a00001c2b0000922b0000d02b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 92
     width: 1112
     height: 926

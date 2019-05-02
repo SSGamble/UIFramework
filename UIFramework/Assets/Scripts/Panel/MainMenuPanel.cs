@@ -3,13 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 主面板
+///     此处，Task 面板使用 解耦合事件监听和广播系统，其他都使用基本拖拽
+/// </summary>
 public class MainMenuPanel : BasePanel
 {
     private CanvasGroup canvasGroup;
+    private Button btnTask;
 
-    private void Start()
+    private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
+        btnTask = transform.Find("IconPanel/btnTask").GetComponent<Button>();
+        btnTask.onClick.AddListener(OnTaskButtonClick);
+    }
+
+    private void OnTaskButtonClick()
+    {
+        OnPushPanel("Task");
+        EventCenter.Broadcast(EventType.ShowTaskPanel, "Task");
     }
 
     /// <summary>

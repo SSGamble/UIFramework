@@ -11,6 +11,18 @@ public class TaskPanel : BasePanel
     {
         if (canvasGroup == null)
             canvasGroup = GetComponent<CanvasGroup>();
+
+        EventCenter.AddListener<string>(EventType.ShowTaskPanel, ShowTaskPanel);
+    }
+
+    private void OnDestroy()
+    {
+        EventCenter.RemoveListener<string>(EventType.ShowTaskPanel, ShowTaskPanel);
+    }
+
+    private void ShowTaskPanel(string panelTypeStr)
+    {
+        print(panelTypeStr);
     }
 
     /// <summary>
